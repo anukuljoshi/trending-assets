@@ -29,7 +29,7 @@ code {
 }
 
 .container {
-    padding-top: 50px;
+	padding-top: 50px;
 }
 
 .page__header {
@@ -125,10 +125,6 @@ code {
 	padding-left: 10px;
 	color: #00ffa3;
 	font-size: 12px;
-}
-
-.card__subvalue__positive::before {
-	content: "+";
 }
 
 .card__subvalue__negative {

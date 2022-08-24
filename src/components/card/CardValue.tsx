@@ -1,7 +1,7 @@
 interface CardValueProps {
 	header: String;
-	value: number;
-	percent?: number;
+	value: String;
+	percent?: String;
 }
 
 const CardValue = (props: CardValueProps) => {
@@ -12,7 +12,7 @@ const CardValue = (props: CardValueProps) => {
 				{props.percent && (
 					<span
 						className={`${
-							props.percent >= 0
+							props.percent.charAt(0) === "+"
 								? "card__subvalue__positive"
 								: "card__subvalue__negative"
 						}`}

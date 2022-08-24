@@ -5,10 +5,10 @@ interface CardProps {
 	SVGElement: React.ReactNode;
 	header: String;
 	header1: String;
-	value1: number;
+	value1: String;
 	header2: String;
-	value2: number;
-	percent: number;
+	value2: String;
+	percent: String;
 	gradient?: String;
 	items?: React.ReactNode[];
 }

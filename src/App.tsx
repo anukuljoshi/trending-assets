@@ -21,10 +21,10 @@ function App() {
 					SVGElement={<Bitcoin />}
 					header={"Bitcoin (BTC)"}
 					header1={"Price"}
-					value1={31812.8}
+					value1={"31812.80"}
+					percent={"+10"}
 					header2={"TVL"}
-					value2={60000}
-					percent={10}
+					value2={"60000"}
 					gradient={"bitcoin-gradient"}
 					items={[
 						<Solana width={22} height={22} />,
@@ -36,10 +36,10 @@ function App() {
 					SVGElement={<Solana />}
 					header={"Solana (SOL)"}
 					header1={"Price"}
-					value1={32.83}
+					value1={"32.83"}
 					header2={"TVL"}
-					value2={60000}
-					percent={-12.32}
+					value2={"60000"}
+					percent={"-12.32"}
 					gradient={"solana-gradient"}
 					items={[
 						<Bitcoin width={22} height={22} />,
@@ -51,10 +51,10 @@ function App() {
 					SVGElement={<Ethereum />}
 					header={"Ethereum (ETH)"}
 					header1={"Price"}
-					value1={1466.45}
+					value1={"1466.45"}
 					header2={"TVL"}
-					value2={60000}
-					percent={-11.93}
+					value2={"60000"}
+					percent={"-11.93"}
 					gradient={"ethereum-gradient"}
 					items={[
 						<Solana width={22} height={22} />,
@@ -66,10 +66,10 @@ function App() {
 					SVGElement={<Binance />}
 					header={"Binance USD (BUSD)"}
 					header1={"Price"}
-					value1={1.0}
+					value1={"1.00"}
 					header2={"TVL"}
-					value2={60000}
-					percent={0.26}
+					value2={"60000"}
+					percent={"+0.26"}
 					gradient={"binance-gradient"}
 					items={[
 						<Solana width={22} height={22} />,
@@ -81,10 +81,10 @@ function App() {
 					SVGElement={<Shiba />}
 					header={"Shiba Inu (SHIB)"}
 					header1={"Price"}
-					value1={0.00000001948}
+					value1={"0.00000001948"}
 					header2={"TVL"}
-					value2={60000}
-					percent={-8.1}
+					value2={"60000"}
+					percent={"-8.1"}
 					gradient={"shiba-gradient"}
 					items={[
 						<Bitcoin width={22} height={22} />,
@@ -93,7 +93,6 @@ function App() {
 					]}
 				/>
 			</div>
-
 		</div>
 	);
 }
